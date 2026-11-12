@@ -1,0 +1,45 @@
+{
+  "site": {
+    "baseURL": "https://practicesoftwaretesting.com",
+    "routes": {
+      "home": "/",
+      "register": "/auth/register",
+      "login": "/auth/login",
+      "account": "/account",
+      "profile": "/account/profile",
+      "favorites": "/account/favorites"
+    }
+  },
+  "registration": {
+    "firstName": "Esmail",
+    "lastName": "Ahmed",
+    "dateOfBirth": "2003-06-26",
+    "countryCode": "EG",
+    "postalCode": "11511",
+    "houseNumber": "42",
+    "street": " maadi Street",
+    "city": "Cairo",
+    "state": "Cairo",
+    "phone": "201121082667",
+    "email": "esmail@gmail.com",
+    "password": "Esmail@26"
+  },
+  "profileUpdate": {
+    "firstName": "Esmail",
+    "lastName": "Ahmed",
+    "phone": "+201121082667",
+    "street": "100 maadi st",
+    "postalCode": "11711",
+    "city": "Cairo",
+    "state": "Cairo",
+    "country": "EG"
+  },
+  "product": {
+    "name": "Thor Hammer",
+    "searchTerm": "Thor Hammer"
+  },
+  "expected": {
+    "profileSuccess": "Your profile is successfully updated!",
+    "favoriteAdded": "Product added to your favorites list."
+  }
+}
